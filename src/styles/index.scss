@@ -1,6 +1,15 @@
-$body-color: slateblue;
-
-body {
-  color: $body-color;
-  font-family: sans-serif;
-}
+@import "base";
+@import "fonts";
+@import "container";
+@import "fullscreen";
+@import "header";
+@import "overlay";
+@import "menu";
+@import "features-page";
+@import "display";
+@import "mobile-display";
+@import "plans-page";
+@import "text-uppercase";
+@import "button";
+@import "presents-block";
+@import "subscribe-list";

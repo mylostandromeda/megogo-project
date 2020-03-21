@@ -1,0 +1,74 @@
+.plans-page {
+  position: relative;
+
+  &_first {
+    background: url("../../public/images/plans-image_first.jpg") center center no-repeat;
+    background-size: cover;
+  }
+  &_second {
+    background: url("../../public/images/plans-image_second.jpg") center center no-repeat;
+    background-size: cover;
+  }
+  &_third {
+    background: url("../../public/images/plans-image_third.jpg") center center no-repeat;
+    background-size: cover;
+  }
+
+  &__subscribe {
+    font-size: 16px;
+    font-family: 'SF UI Display Light';
+    letter-spacing: 0.5px;
+    padding-top: 36px;
+    display: block;
+  }
+  &__plan {
+    letter-spacing: 1px;
+    padding-top: 5px;
+  }
+
+  &_padding-lg {
+    padding-top: 130px;
+  }
+
+  &_padding-md {
+    padding-top: 100px;
+  }
+
+  &_padding-sm {
+    padding-top: 50px;
+  }
+
+  &__text {
+    font-size: 16px;
+    font-family: 'SF UI Display Light';
+    padding-top: 10px;
+  }
+
+  &__price {
+    padding: 40px 0px 14px 0px;
+  }
+
+  &__more {
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: 1.3px;
+    font-family: 'SF UI Display Light';
+    display: block;
+    padding-top: 20px;
+  }
+  &__description {
+    font-size: 12px;
+    font-family: 'SF UI Display Light';
+    opacity: 0.6;
+    padding-top: 10px;
+  }
+  &__gradient {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.83) 100%);
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+}

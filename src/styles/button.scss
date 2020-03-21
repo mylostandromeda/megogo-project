@@ -1,0 +1,17 @@
+.button {
+  display: block;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  font-family: 'SF UI Display Light';
+  font-size: 11px;
+  background: #23C3B2;
+  color: #fff;
+  padding: 21px 54px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background: #1bb7a6;
+  }
+}

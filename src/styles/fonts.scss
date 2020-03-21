@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'SF UI Display Bold';
+  src: url('../../public/fonts/SFUIDisplay-Bold.woff2') format('woff2'),
+  url('../../public/fonts/SFUIDisplay-Bold.woff') format('woff'),
+  url('../../public/fonts/SFUIDisplay-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF UI Display Light';
+  src: url('../../public/fonts/SFUIDisplay-Light.woff2') format('woff2'),
+  url('../../public/fonts/SFUIDisplay-Light.woff') format('woff'),
+  url('../../public/fonts/SFUIDisplay-Light.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+

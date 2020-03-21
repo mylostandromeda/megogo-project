@@ -3,10 +3,178 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>webpack starterkit</title>
+  <link rel="stylesheet" type="text/css" href="../node_modules/fullpage.js/dist/fullpage.min.css" />
+  <link rel="stylesheet" href="bundle.css">
+  <title>Megogo Plans</title>
 </head>
 <body>
-  <h1>webpack starter</h1>
-  <p>✨ A lightweight foundation for your next webpack based frontend project.</p>
+<div id="fullPage">
+  <header class="section header">
+    <div class="overlay">
+      <nav class="menu">
+        <div class="menu__line"></div>
+        <div class="menu__line"></div>
+        <div class="menu__line"></div>
+      </nav>
+      <div class="container">
+        <div class="header__content">
+          <h1>Смотрите ТВ<br> и кино без рекламы в единой подписке</h1>
+          <p class="header__text">Популярные телеканалы и огромная библиотека фильмов, сериалов, мультфильмов, трансляций в единой подписке.</p>
+        </div>
+      </div>
+      <img class="header__arrow" src="../public/images/header-arrow.png" alt="arrow-down">
+    </div>
+  </header>
+  <section class="section features-page">
+    <div class="container">
+      <h3 class="features-page__title">Управление ТВ-эфиром</h3>
+      <p class="features-page__text">ТВ-пауза, перемотка, архив<br> телепередач до 14 дней</p>
+      <div class="display">
+        <img src="../public/images/tv-display.png" alt="" class="display__tv">
+        <img src="../public/images/display-example.jpg" alt="" class="display__img display_tv-img">
+        <div class="display__gradient"></div>
+      </div>
+    </div>
+  </section>
+  <section class="section features-page">
+    <div class="container">
+      <h3 class="features-page__title">Смотрите фильмы<br> без интернета</h3>
+      <p class="features-page__text">Загрузка фильмов и сериалов<br> на ваше устройство.</p>
+      <div class="mobile-display">
+        <img alt="mobile-frame" src="../public/images/mobile-display.png" class="mobile-display__frame">
+        <img alt="mobile-img" src="../public/images/mobile-img.jpg" class="mobile-display__img">
+        <div class="mobile-display__gradient"></div>
+      </div>
+    </div>
+  </section>
+  <section class="section plans-page plans-page_first">
+    <div class="overlay">
+      <div class="container">
+        <span class="plans-page__subscribe text-uppercase">Подписка</span>
+        <h3 class="plans-page__plan">Легкая</h3>
+        <h2 class="plans-page_padding-lg">120+ каналов</h2>
+        <p class="plans-page__text">Смотрите рейтинговые национальные каналы, фильмовые каналы <span class="text-uppercase">megogo</span>, а так же 8000 фильмов по подписке</p>
+        <h3 class="plans-page__price">от 40 грн/мес</h3>
+        <button class="button text-uppercase">подключить</button>
+        <a href="#" class="plans-page__more text-uppercase">подробнее</a>
+        <div class="plans-page__gradient"></div>
+      </div>
+    </div>
+  </section>
+  <section class="section plans-page plans-page_second">
+  <div class="overlay overlay_border">
+    <div class="container">
+      <span class="plans-page__subscribe text-uppercase">Подписка</span>
+      <h3 class="plans-page__plan">Оптимальная</h3>
+      <h2 class="plans-page_padding-md">10000 фильмов и 160+ каналов</h2>
+      <p class="plans-page__text">Голливудская классика и свежие<br> кино-новинки по подписке, прямые футбольные трансляции и более<br> 160 каналов</p>
+      <h3 class="plans-page__price">от 1 ГРН</h3>
+      <button class="button text-uppercase">попробовать</button>
+      <div class="plans-page__description">Первые 14 дней за 1 грн,<br> далее — 97 грн/мес.</div>
+      <a href="#" class="plans-page__more text-uppercase">подробнее</a>
+      <div class="plans-page__gradient"></div>
+    </div>
+  </div>
+</section>
+  <section class="section plans-page plans-page_third">
+    <div class="overlay">
+      <div class="container">
+        <span class="plans-page__subscribe text-uppercase">Подписка</span>
+        <h3 class="plans-page__plan">Максимальная</h3>
+        <h2 class="plans-page_padding-sm">ТВ, кино, культовые сериалы НВО</h2>
+        <p class="plans-page__text">Пакет <span class="text-uppercase">амедиатека</span> с лучшими сериалами планеты: Игра<br> престолов, Чернобыль, Мир Дикого Запада. Более 200 каналов, в том<br> числе премиум, а также 10000<br> фильмов по подписке.</p>
+        <h3 class="plans-page__price">от 47 ГРН</h3>
+        <button class="button text-uppercase">попробовать</button>
+        <div class="plans-page__description">Первые 14 дней за 47 грн,<br> далее — 197 грн/мес.</div>
+        <a href="#" class="plans-page__more text-uppercase">подробнее</a>
+        <div class="plans-page__gradient"></div>
+      </div>
+    </div>
+  </section>
+  <section class="section features-page">
+    <div class="container">
+      <h3 class="features-page__title">На всех ваших устройствах</h3>
+      <p class="features-page__text">Подключайте до 5 устройств к вашему профилю</p>
+      <div class="display">
+        <img src="../public/images/tv-display.png" alt="" class="display__tv">
+        <img src="../public/images/display-example.jpg" alt="" class="display__img display_tv-img">
+        <img src="../public/images/tablet-display.png" alt="" class="display__tablet">
+        <img src="../public/images/display-example.jpg" alt="" class="display__img display_tablet-img">
+        <img src="../public/images/mobile-display.png" alt="" class="display__mobile">
+        <img src="../public/images/display-example.jpg" alt="" class="display__img display_mobile-img">
+      </div>
+    </div>
+  </section>
+  <section class="section features-page">
+    <div class="container">
+      <h3 class="features-page__title">Подарки от партнеров при каждом продлении подписки</h3>
+      <p class="features-page__text">Сертификаты на скидки от WOG, Сушия, Антошка, Ева и др.</p>
+
+      <div class="presents-block">
+        <div class="presents-block__item">
+          <img src="../public/images/wog.png" alt="" class="presents-block__img">
+          <div class="presents-block__discount">
+            <div class="presents-block__amount">-80&#8372;</div>
+          </div>
+        </div>
+        <div class="presents-block__item">
+          <img src="../public/images/antoshka.png" alt="" class="presents-block__img">
+          <div class="presents-block__discount">
+            <div class="presents-block__amount">-20&#37;</div>
+          </div>
+        </div>
+        <div class="presents-block__item">
+          <img src="../public/images/eva.png" alt="" class="presents-block__img">
+          <div class="presents-block__discount">
+            <div class="presents-block__amount">-75&#8372;</div>
+          </div>
+        </div>
+        <div class="presents-block__item">
+          <img src="../public/images/argo.jpg" alt="" class="presents-block__img">
+          <div class="presents-block__discount">
+            <div class="presents-block__amount">-300&#8372;</div>
+          </div>
+        </div>
+      </div>
+      <div class="features-page__gradient"></div>
+    </div>
+  </section>
+  <footer class="section features-page">
+    <div class="container">
+      <h3 class="features-page__title">Подключите подписку<br> за 1 грн и получайте:</h3>
+      <div class="subscribe-list">
+        <div class="subscribe-list__item">
+          <h4>ТВ-архив</h4>
+          <p class="subscribe-list__text">телепередач до 14 дней</p>
+        </div>
+        <div class="subscribe-list__item">
+          <h4>Full HD</h4>
+          <p class="subscribe-list__text">качество только по подписке</p>
+        </div>
+        <div class="subscribe-list__item">
+          <h4>10&#37; скидка</h4>
+          <p class="subscribe-list__text">на премьеры</p>
+        </div>
+        <div class="subscribe-list__item">
+          <h4>5 устройств</h4>
+          <p class="subscribe-list__text">в одной подписке</p>
+        </div>
+        <div class="subscribe-list__item">
+          <h4>Без рекламы</h4>
+          <p class="subscribe-list__text">на всех фильмах и мультфильмах</p>
+        </div>
+      </div>
+      <button class="button text-uppercase">подключить</button>
+    </div>
+  </footer>
+</div>
+
+<script type="text/javascript" src="../node_modules/fullpage.js/dist/fullpage.min.js"></script>
+<script>
+  new fullpage('#fullPage',{
+    autoScrolling: true
+  })
+</script>
+
 </body>
 </html>

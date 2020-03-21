@@ -1,0 +1,18 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0px 0px 15px;
+  position: absolute;
+
+  &__line {
+    height: 2px;
+    width: 16px;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 3px;
+  }
+
+  &__line:last-child {
+    margin-bottom: 0px;
+  }
+}
