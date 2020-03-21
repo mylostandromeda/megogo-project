@@ -2,15 +2,15 @@
   position: relative;
 
   &_first {
-    background: url("../../public/images/plans-image_first.jpg") center center no-repeat;
+    background: url("../../public/images/plans-image_first.png") center center no-repeat #000;
     background-size: cover;
   }
   &_second {
-    background: url("../../public/images/plans-image_second.jpg") center center no-repeat;
+    background: url("../../public/images/plans-image_second.png") center center no-repeat;
     background-size: cover;
   }
   &_third {
-    background: url("../../public/images/plans-image_third.jpg") center center no-repeat;
+    background: url("../../public/images/plans-image_third.png") center center no-repeat;
     background-size: cover;
   }
 
