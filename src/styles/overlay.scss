@@ -1,8 +1,18 @@
 .overlay {
     background: rgba(0, 0, 0, 0.5);
     height: 100%;
+    position: relative;
 
     &_border {
-        border: 8px solid #23C3B2;
+        &::before {
+            content: '';
+            box-shadow: inset 0 0 0 8px #23C3B2;
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            z-index: 5;
+        }
     }
 }
