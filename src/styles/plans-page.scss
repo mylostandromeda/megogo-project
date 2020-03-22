@@ -36,21 +36,29 @@
     font-family: 'SF UI Display Light';
     letter-spacing: 0.5px;
     display: block;
+    line-height: 22px;
   }
   &__plan {
     letter-spacing: 1px;
     padding-top: 5px;
+    line-height: 29px;
+  }
+
+  &__title {
+    line-height: 43px;
   }
 
   &__text {
     font-size: 16px;
     font-family: 'SF UI Display Light';
     padding-top: 10px;
+    line-height: 22px;
   }
 
   &__price {
     font-family: 'SF UI Display Regular';
     padding: 10px 0px 14px;
+    line-height: 30px;
   }
 
   &__more {
@@ -60,6 +68,7 @@
     font-family: 'SF UI Display Light';
     display: inline-block;
     padding-top: 20px;
+    line-height: 13px;
   }
   &__description {
     font-size: 12px;

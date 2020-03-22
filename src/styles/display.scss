@@ -2,6 +2,26 @@
   position: relative;
   width: 175%;
 
+  &__laptop-block {
+    position: absolute;
+    height: 40%;
+    width: 40%;
+    top: 65%;
+    z-index: 4;
+    left: 30%;
+    bottom: 0;
+  }
+
+  &__mobile-block {
+    position: absolute;
+    height: 30%;
+    width: 10%;
+    top: 72%;
+    left: 29.5%;
+    z-index: 4;
+    bottom: 0;
+  }
+
   &__tv {
     position: relative;
     z-index: 2;
@@ -9,19 +29,15 @@
   }
 
   &__laptop {
-    height: 146px;
-    position: absolute;
-    left: 168px;
-    top: 200px;
-    z-index: 3;
+    width: 100%;
+    position: relative;
+    z-index: 4;
   }
 
   &__mobile {
-    height: 90px;
-    position: absolute;
-    left: 164px;
-    top: 253px;
+    height: 100%;
     z-index: 4;
+    position: relative;
   }
 
   &__img {
@@ -39,21 +55,20 @@
   }
 
   &_laptop-img {
-    width: 195px;
-    top: 209px;
-    height: 120px;
+    width: 82%;
+    height: 90%;
     z-index: 2;
-    padding: 2px;
-    left: 190px;
+    padding: 2% 2%;
+    left: 10%;
   }
 
   &_mobile-img {
-    height: 90px;
-    width: 46px;
-    top: 252px;
-    left: 164px;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
     z-index: 3;
-    padding: 2px 3px;
+    padding: 6% 7%;
   }
 
   &__gradient {

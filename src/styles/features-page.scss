@@ -4,6 +4,10 @@
   overflow: hidden;
 
   &__title {
+    line-height: 28px;
+  }
+
+  &_space {
     padding-top: 80px;
   }
 
@@ -12,10 +16,7 @@
     opacity: 0.8;
     font-family: 'SF UI Display Light';
     padding-top: 15px;
-  }
-
-  &_none-space {
-    padding-top: 0px;
+    line-height: 20px;
   }
 
   &__wrapper {

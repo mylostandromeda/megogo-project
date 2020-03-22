@@ -2,6 +2,11 @@
   background: url("../../public/images/header-bg.jpg") center center no-repeat;
   background-size: cover;
 
+  &__menu {
+    margin: 15px 0px 0px 15px;
+    position: absolute;
+  }
+
   &__content {
     height: 100%;
     display: flex;
@@ -9,13 +14,14 @@
     justify-content: center;
   }
   &__title {
-    font-size: 30px;
+    line-height: 36px;
   }
 
   &__text {
     padding-top: 10px;
     font-family: 'SF UI Display Light';
     opacity: 0.8;
+    line-height: 20px;
   }
   &__arrow {
     margin: 0 auto;

@@ -2,10 +2,10 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 30px 0px 50px 0px;
 
   &__item {
     width: 45%;
+    line-height: 24px;
 
     &:nth-child(n+3) {
       padding-top: 40px;
@@ -15,5 +15,6 @@
   &__text {
     font-size: 15px;
     font-family: 'SF UI Display Light';
+    line-height: 20px;
   }
 }
