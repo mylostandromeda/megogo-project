@@ -14,11 +14,17 @@
     background-size: cover;
   }
 
+  &__wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
   &__subscribe {
     font-size: 16px;
     font-family: 'SF UI Display Light';
     letter-spacing: 0.5px;
-    padding-top: 36px;
     display: block;
   }
   &__plan {
@@ -26,15 +32,7 @@
     padding-top: 5px;
   }
 
-  &_padding-lg {
-    padding-top: 130px;
-  }
-
-  &_padding-md {
-    padding-top: 100px;
-  }
-
-  &_padding-sm {
+  &__title {
     padding-top: 50px;
   }
 

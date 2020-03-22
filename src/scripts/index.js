@@ -1,3 +1,7 @@
 import '../styles/index.scss';
 
-console.log('webpack starterkit');
+import fullpage from 'fullpage.js';
+
+new fullpage('#fullPage',{
+    autoScrolling: true
+});
