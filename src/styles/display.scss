@@ -60,6 +60,7 @@
     z-index: 2;
     padding: 2% 2%;
     left: 10%;
+    top: 0%;
   }
 
   &_mobile-img {
@@ -73,7 +74,7 @@
 
   &__gradient {
     height: 100px;
-    background: radial-gradient(50% 100% at 49.51% -0.97%, rgba(151, 151, 151, 0.74) 0%, rgba(196, 196, 196, 0) 100%);
+    background: radial-gradient(50% 100% at 50% 0%, rgba(151, 151, 151, 0.74) 0%, transparent 100%);
     position: absolute;
     bottom: -60px;
     opacity: 0.8;

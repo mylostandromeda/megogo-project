@@ -1,17 +1,18 @@
 .plans-page {
   position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #000;
 
   &_first {
-    background: url("../../public/images/plans-image_first.png") center center no-repeat #000;
-    background-size: cover;
+    background-image: url("../../public/images/plans-image_first.png");
   }
   &_second {
-    background: url("../../public/images/plans-image_second.png") center center no-repeat;
-    background-size: cover;
+    background-image: url("../../public/images/plans-image_second.png");
   }
   &_third {
-    background: url("../../public/images/plans-image_third.png") center center no-repeat;
-    background-size: cover;
+    background-image: url("../../public/images/plans-image_third.png");
   }
 
   &__wrapper {
@@ -33,7 +34,7 @@
 
   &__subscribe {
     font-size: 16px;
-    font-family: 'SF UI Display Light';
+    font-family: 'SF UI Display Light',sans-serif;
     letter-spacing: 0.5px;
     display: block;
     line-height: 22px;
@@ -50,13 +51,13 @@
 
   &__text {
     font-size: 16px;
-    font-family: 'SF UI Display Light';
+    font-family: 'SF UI Display Light',sans-serif;
     padding-top: 10px;
     line-height: 22px;
   }
 
   &__price {
-    font-family: 'SF UI Display Regular';
+    font-family: 'SF UI Display Regular',sans-serif;
     padding: 10px 0px 14px;
     line-height: 30px;
   }
@@ -65,14 +66,14 @@
     color: #fff;
     font-size: 11px;
     letter-spacing: 1.3px;
-    font-family: 'SF UI Display Light';
+    font-family: 'SF UI Display Light',sans-serif;
     display: inline-block;
     padding-top: 20px;
     line-height: 13px;
   }
   &__description {
     font-size: 12px;
-    font-family: 'SF UI Display Light';
+    font-family: 'SF UI Display Light',sans-serif;
     opacity: 0.6;
     padding-top: 10px;
   }
