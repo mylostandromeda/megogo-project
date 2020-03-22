@@ -18,7 +18,17 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 36px 0px;
+  }
+
+  &__block {
+    &:first-child {
+      flex-basis: 25%;
+    }
+    &:last-child {
+      flex-basis: 35%;
+    }
   }
 
   &__subscribe {
@@ -32,10 +42,6 @@
     padding-top: 5px;
   }
 
-  &__title {
-    padding-top: 50px;
-  }
-
   &__text {
     font-size: 16px;
     font-family: 'SF UI Display Light';
@@ -43,7 +49,8 @@
   }
 
   &__price {
-    padding: 40px 0px 14px 0px;
+    font-family: 'SF UI Display Regular';
+    padding: 10px 0px 14px;
   }
 
   &__more {

@@ -1,11 +1,11 @@
 .display {
   position: relative;
-  margin-top: 60px;
+  width: 175%;
 
   &__tv {
     position: relative;
     z-index: 2;
-    height: 332px;
+    width: 100%;
   }
 
   &__laptop {
@@ -30,11 +30,12 @@
   }
   &_tv-img {
     top: 0;
-    height: 303px;
-    width: 525px;
+    height: 100%;
+    width: 100%;
     z-index: 1;
+    right: 0;
     left: 0;
-    padding: 4px;
+    padding: 1% 1% 6.5%;
   }
 
   &_laptop-img {
@@ -60,7 +61,7 @@
     background: radial-gradient(50% 100% at 49.51% -0.97%, rgba(151, 151, 151, 0.74) 0%, rgba(196, 196, 196, 0) 100%);
     position: absolute;
     bottom: -60px;
-    opacity: 0.5;
-    width: 570px;
+    opacity: 0.8;
+    width: 100%;
   }
 }
