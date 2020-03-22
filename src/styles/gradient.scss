@@ -10,7 +10,11 @@
     z-index: 5;
   }
 
-  &_light {
+  &_medium {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 37%, #000000 90%);
+  }
+
+  &_light {
+    opacity: 0.6;
   }
 }
