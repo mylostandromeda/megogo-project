@@ -1,4 +1,4 @@
-# Webpack Frontend Starterkit
+# Megogo Website
 
 
 ### Installation
